@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout
+        uses: actions/checkout@v4
 
       - name: Install dependencies
-        run: npm CI
+        run: npm ci
 
       - name: Run build
         run: npm run build
